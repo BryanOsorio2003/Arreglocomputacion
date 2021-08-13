@@ -16,5 +16,21 @@ namespace mockup1_848
         {
             InitializeComponent();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form2 historial = new Form2();
+            historial.ShowDialog();
+            this.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form2 historial = new Form2();
+            historial.ShowDialog();
+            this.Show();
+        }
     }
 }

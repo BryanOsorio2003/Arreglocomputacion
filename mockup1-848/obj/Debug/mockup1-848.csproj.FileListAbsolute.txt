@@ -1,0 +1,11 @@
+C:\Users\SENA\Desktop\nuñez\Arreglocomputacion\mockup1-848\bin\Debug\mockup1-848.exe.config
+C:\Users\SENA\Desktop\nuñez\Arreglocomputacion\mockup1-848\bin\Debug\mockup1-848.exe
+C:\Users\SENA\Desktop\nuñez\Arreglocomputacion\mockup1-848\bin\Debug\mockup1-848.pdb
+C:\Users\SENA\Desktop\nuñez\Arreglocomputacion\mockup1-848\obj\Debug\mockup1-848.csprojAssemblyReference.cache
+C:\Users\SENA\Desktop\nuñez\Arreglocomputacion\mockup1-848\obj\Debug\mockup1_848.Form1.resources
+C:\Users\SENA\Desktop\nuñez\Arreglocomputacion\mockup1-848\obj\Debug\mockup1_848.Form2.resources
+C:\Users\SENA\Desktop\nuñez\Arreglocomputacion\mockup1-848\obj\Debug\mockup1_848.Properties.Resources.resources
+C:\Users\SENA\Desktop\nuñez\Arreglocomputacion\mockup1-848\obj\Debug\mockup1-848.csproj.GenerateResource.cache
+C:\Users\SENA\Desktop\nuñez\Arreglocomputacion\mockup1-848\obj\Debug\mockup1-848.csproj.CoreCompileInputs.cache
+C:\Users\SENA\Desktop\nuñez\Arreglocomputacion\mockup1-848\obj\Debug\mockup1-848.exe
+C:\Users\SENA\Desktop\nuñez\Arreglocomputacion\mockup1-848\obj\Debug\mockup1-848.pdb
