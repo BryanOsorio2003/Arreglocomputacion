@@ -6,13 +6,15 @@ using System.Threading.Tasks;
 
 namespace mockup1_848
 {
-    class Class1
+    class obtenerValores
     {
         public string nombre { set; get; }
+        public DateTime fecha { set; get; }
+
         public string telefono { set; get; }
-        public string cedula { set; get; }
+        public int cedula { set; get; }
         public string opcionesElegir { set; get; }
         public string descripcion { set; get; }
-        public string costo { set; get; }
+        public int costo { set; get; }
     }
 }

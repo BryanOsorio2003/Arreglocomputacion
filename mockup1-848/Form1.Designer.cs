@@ -42,6 +42,8 @@ namespace mockup1_848
             this.button1 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.descripcion = new System.Windows.Forms.RichTextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.fecha = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
             // cedula
@@ -90,7 +92,7 @@ namespace mockup1_848
             "TABLET",
             "TELEVISOR",
             "PORTATIL"});
-            this.opcionesElegir.Location = new System.Drawing.Point(237, 147);
+            this.opcionesElegir.Location = new System.Drawing.Point(237, 180);
             this.opcionesElegir.Name = "opcionesElegir";
             this.opcionesElegir.Size = new System.Drawing.Size(297, 21);
             this.opcionesElegir.TabIndex = 6;
@@ -138,22 +140,24 @@ namespace mockup1_848
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.DarkOrange;
             this.button1.Location = new System.Drawing.Point(237, 415);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 15;
             this.button1.Text = "Registro";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button3
             // 
+            this.button3.BackColor = System.Drawing.Color.DarkOrange;
             this.button3.Location = new System.Drawing.Point(459, 415);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 17;
             this.button3.Text = "Registrar";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // descripcion
@@ -164,11 +168,30 @@ namespace mockup1_848
             this.descripcion.TabIndex = 18;
             this.descripcion.Text = "";
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
+            this.label4.Location = new System.Drawing.Point(232, 131);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(77, 25);
+            this.label4.TabIndex = 19;
+            this.label4.Text = "Fecha";
+            // 
+            // fecha
+            // 
+            this.fecha.Location = new System.Drawing.Point(334, 139);
+            this.fecha.Name = "fecha";
+            this.fecha.Size = new System.Drawing.Size(200, 20);
+            this.fecha.TabIndex = 21;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(750, 450);
+            this.Controls.Add(this.fecha);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.descripcion);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button1);
@@ -204,6 +227,8 @@ namespace mockup1_848
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.RichTextBox descripcion;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.DateTimePicker fecha;
     }
 }
 
