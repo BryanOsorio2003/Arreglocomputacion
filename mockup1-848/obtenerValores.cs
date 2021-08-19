@@ -10,7 +10,6 @@ namespace mockup1_848
     {
         public string nombre { set; get; }
         public DateTime fecha { set; get; }
-
         public string telefono { set; get; }
         public int cedula { set; get; }
         public string opcionesElegir { set; get; }

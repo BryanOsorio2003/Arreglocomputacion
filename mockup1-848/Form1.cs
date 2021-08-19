@@ -30,6 +30,13 @@ namespace mockup1_848
             obValor.descripcion = descripcion.Text;
             obValor.costo = Convert.ToInt32(costo.Text);
             CGlobal.listaValores.Add(obValor);
+            nombre.Text = "";
+            fecha.Text = "";
+            telefono.Text = "";
+            cedula.Text = "";
+            opcionesElegir.Text = "";
+            descripcion.Text = "";
+            costo.Text = "";
         }
 
         private void button1_Click(object sender, EventArgs e)

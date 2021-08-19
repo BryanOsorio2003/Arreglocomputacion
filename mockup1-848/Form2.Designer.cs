@@ -48,7 +48,7 @@ namespace mockup1_848
             this.groupBox8.Controls.Add(this.button5);
             this.groupBox8.Controls.Add(this.button4);
             this.groupBox8.Controls.Add(this.button3);
-            this.groupBox8.Location = new System.Drawing.Point(763, 35);
+            this.groupBox8.Location = new System.Drawing.Point(788, 36);
             this.groupBox8.Name = "groupBox8";
             this.groupBox8.Size = new System.Drawing.Size(217, 303);
             this.groupBox8.TabIndex = 7;
@@ -58,7 +58,7 @@ namespace mockup1_848
             // 
             this.button6.BackColor = System.Drawing.Color.Yellow;
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
-            this.button6.Location = new System.Drawing.Point(6, 109);
+            this.button6.Location = new System.Drawing.Point(6, 172);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(205, 39);
             this.button6.TabIndex = 88;
@@ -69,7 +69,7 @@ namespace mockup1_848
             // 
             this.button5.BackColor = System.Drawing.Color.Red;
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
-            this.button5.Location = new System.Drawing.Point(6, 64);
+            this.button5.Location = new System.Drawing.Point(6, 98);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(205, 39);
             this.button5.TabIndex = 87;
@@ -79,7 +79,7 @@ namespace mockup1_848
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
-            this.button4.Location = new System.Drawing.Point(6, 154);
+            this.button4.Location = new System.Drawing.Point(6, 248);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(205, 39);
             this.button4.TabIndex = 86;
@@ -113,7 +113,7 @@ namespace mockup1_848
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(12, 35);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(745, 561);
+            this.dataGridView1.Size = new System.Drawing.Size(770, 561);
             this.dataGridView1.TabIndex = 8;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -125,7 +125,7 @@ namespace mockup1_848
             "Listo",
             "Vencimiento",
             "Pendiente"});
-            this.comboBox1.Location = new System.Drawing.Point(764, 345);
+            this.comboBox1.Location = new System.Drawing.Point(788, 345);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(216, 33);
             this.comboBox1.TabIndex = 90;
