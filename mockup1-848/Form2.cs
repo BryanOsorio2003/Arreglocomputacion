@@ -33,6 +33,13 @@ namespace mockup1_848
         private void Form2_Load(object sender, EventArgs e)
         {
             dataGridView1.DataSource = CGlobal.listaValores;
+            dataGridView1.Columns[0].HeaderText = "Nombre";
+            dataGridView1.Columns[1].HeaderText = "Fecha";
+            dataGridView1.Columns[2].HeaderText = "Telefono";
+            dataGridView1.Columns[3].HeaderText = "Cedula";
+            dataGridView1.Columns[4].HeaderText = "Comput";
+            dataGridView1.Columns[5].HeaderText = "Descripción";
+            dataGridView1.Columns[6].HeaderText = "Costo";
 
         }
     }
