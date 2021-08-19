@@ -48,16 +48,17 @@ namespace mockup1_848
             // 
             // cedula
             // 
-            this.cedula.Location = new System.Drawing.Point(334, 112);
+            this.cedula.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cedula.Location = new System.Drawing.Point(334, 105);
             this.cedula.Name = "cedula";
-            this.cedula.Size = new System.Drawing.Size(200, 20);
+            this.cedula.Size = new System.Drawing.Size(200, 24);
             this.cedula.TabIndex = 1;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(232, 55);
+            this.label1.Location = new System.Drawing.Point(232, 25);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(93, 25);
             this.label1.TabIndex = 3;
@@ -67,7 +68,7 @@ namespace mockup1_848
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
-            this.label2.Location = new System.Drawing.Point(232, 81);
+            this.label2.Location = new System.Drawing.Point(232, 68);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(104, 25);
             this.label2.TabIndex = 4;
@@ -77,7 +78,7 @@ namespace mockup1_848
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
-            this.label3.Location = new System.Drawing.Point(232, 106);
+            this.label3.Location = new System.Drawing.Point(232, 105);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(86, 25);
             this.label3.TabIndex = 5;
@@ -85,6 +86,7 @@ namespace mockup1_848
             // 
             // opcionesElegir
             // 
+            this.opcionesElegir.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.opcionesElegir.FormattingEnabled = true;
             this.opcionesElegir.Items.AddRange(new object[] {
             "CELULAR",
@@ -94,22 +96,24 @@ namespace mockup1_848
             "PORTATIL"});
             this.opcionesElegir.Location = new System.Drawing.Point(237, 180);
             this.opcionesElegir.Name = "opcionesElegir";
-            this.opcionesElegir.Size = new System.Drawing.Size(297, 21);
+            this.opcionesElegir.Size = new System.Drawing.Size(297, 26);
             this.opcionesElegir.TabIndex = 6;
             this.opcionesElegir.Text = "Tipo de equipo";
             // 
             // nombre
             // 
-            this.nombre.Location = new System.Drawing.Point(334, 60);
+            this.nombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nombre.Location = new System.Drawing.Point(334, 25);
             this.nombre.Name = "nombre";
-            this.nombre.Size = new System.Drawing.Size(200, 20);
+            this.nombre.Size = new System.Drawing.Size(200, 24);
             this.nombre.TabIndex = 7;
             // 
             // telefono
             // 
-            this.telefono.Location = new System.Drawing.Point(334, 86);
+            this.telefono.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.telefono.Location = new System.Drawing.Point(334, 68);
             this.telefono.Name = "telefono";
-            this.telefono.Size = new System.Drawing.Size(200, 20);
+            this.telefono.Size = new System.Drawing.Size(200, 24);
             this.telefono.TabIndex = 8;
             // 
             // label5
@@ -125,25 +129,28 @@ namespace mockup1_848
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(249, 387);
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.label6.Location = new System.Drawing.Point(225, 387);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(102, 13);
+            this.label6.Size = new System.Drawing.Size(143, 18);
             this.label6.TabIndex = 13;
             this.label6.Text = "Costo de reparación";
             // 
             // costo
             // 
-            this.costo.Location = new System.Drawing.Point(357, 384);
+            this.costo.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.costo.Location = new System.Drawing.Point(374, 384);
             this.costo.Name = "costo";
-            this.costo.Size = new System.Drawing.Size(177, 20);
+            this.costo.Size = new System.Drawing.Size(160, 24);
             this.costo.TabIndex = 14;
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.DarkOrange;
-            this.button1.Location = new System.Drawing.Point(237, 415);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.button1.Location = new System.Drawing.Point(237, 429);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(81, 27);
             this.button1.TabIndex = 15;
             this.button1.Text = "Registro";
             this.button1.UseVisualStyleBackColor = false;
@@ -152,9 +159,10 @@ namespace mockup1_848
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.DarkOrange;
-            this.button3.Location = new System.Drawing.Point(459, 415);
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.button3.Location = new System.Drawing.Point(448, 424);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.Size = new System.Drawing.Size(86, 32);
             this.button3.TabIndex = 17;
             this.button3.Text = "Registrar";
             this.button3.UseVisualStyleBackColor = false;
@@ -162,6 +170,7 @@ namespace mockup1_848
             // 
             // descripcion
             // 
+            this.descripcion.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.descripcion.Location = new System.Drawing.Point(237, 283);
             this.descripcion.Name = "descripcion";
             this.descripcion.Size = new System.Drawing.Size(297, 95);
@@ -172,7 +181,7 @@ namespace mockup1_848
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
-            this.label4.Location = new System.Drawing.Point(232, 131);
+            this.label4.Location = new System.Drawing.Point(232, 137);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(77, 25);
             this.label4.TabIndex = 19;
@@ -180,7 +189,8 @@ namespace mockup1_848
             // 
             // fecha
             // 
-            this.fecha.Location = new System.Drawing.Point(334, 139);
+            this.fecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fecha.Location = new System.Drawing.Point(334, 142);
             this.fecha.Name = "fecha";
             this.fecha.Size = new System.Drawing.Size(200, 20);
             this.fecha.TabIndex = 21;
@@ -189,7 +199,7 @@ namespace mockup1_848
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(750, 450);
+            this.ClientSize = new System.Drawing.Size(750, 468);
             this.Controls.Add(this.fecha);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.descripcion);

@@ -39,6 +39,7 @@ namespace mockup1_848
             dataGridView1.Columns[3].HeaderText = "Cedula";
             dataGridView1.Columns[4].HeaderText = "Comput";
             dataGridView1.Columns[5].HeaderText = "Descripción";
+            dataGridView1.Columns[5].Width = 150;
             dataGridView1.Columns[6].HeaderText = "Costo";
 
         }
