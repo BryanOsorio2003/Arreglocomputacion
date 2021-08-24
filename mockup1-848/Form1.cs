@@ -29,6 +29,7 @@ namespace mockup1_848
             obValor.opcionesElegir = opcionesElegir.Text;
             obValor.descripcion = descripcion.Text;
             obValor.costo = Convert.ToInt32(costo.Text);
+            obValor.estado = estado.Text;
             CGlobal.listaValores.Add(obValor);
             nombre.Text = "";
             fecha.Text = "";
@@ -37,6 +38,8 @@ namespace mockup1_848
             opcionesElegir.Text = "";
             descripcion.Text = "";
             costo.Text = "";
+            estado.Text = "";
+
         }
 
         private void button1_Click(object sender, EventArgs e)

@@ -15,5 +15,6 @@ namespace mockup1_848
         public string opcionesElegir { set; get; }
         public string descripcion { set; get; }
         public int costo { set; get; }
+        public string estado { set; get; }
     }
 }

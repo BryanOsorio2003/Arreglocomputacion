@@ -44,6 +44,7 @@ namespace mockup1_848
             this.descripcion = new System.Windows.Forms.RichTextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.fecha = new System.Windows.Forms.DateTimePicker();
+            this.estado = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // cedula
@@ -94,7 +95,7 @@ namespace mockup1_848
             "TABLET",
             "TELEVISOR",
             "PORTATIL"});
-            this.opcionesElegir.Location = new System.Drawing.Point(237, 180);
+            this.opcionesElegir.Location = new System.Drawing.Point(237, 181);
             this.opcionesElegir.Name = "opcionesElegir";
             this.opcionesElegir.Size = new System.Drawing.Size(297, 26);
             this.opcionesElegir.TabIndex = 6;
@@ -130,7 +131,7 @@ namespace mockup1_848
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.label6.Location = new System.Drawing.Point(225, 387);
+            this.label6.Location = new System.Drawing.Point(234, 443);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(143, 18);
             this.label6.TabIndex = 13;
@@ -139,7 +140,7 @@ namespace mockup1_848
             // costo
             // 
             this.costo.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.costo.Location = new System.Drawing.Point(374, 384);
+            this.costo.Location = new System.Drawing.Point(374, 440);
             this.costo.Name = "costo";
             this.costo.Size = new System.Drawing.Size(160, 24);
             this.costo.TabIndex = 14;
@@ -148,7 +149,7 @@ namespace mockup1_848
             // 
             this.button1.BackColor = System.Drawing.Color.DarkOrange;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.button1.Location = new System.Drawing.Point(237, 429);
+            this.button1.Location = new System.Drawing.Point(237, 485);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(81, 27);
             this.button1.TabIndex = 15;
@@ -160,7 +161,7 @@ namespace mockup1_848
             // 
             this.button3.BackColor = System.Drawing.Color.DarkOrange;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.button3.Location = new System.Drawing.Point(448, 424);
+            this.button3.Location = new System.Drawing.Point(448, 480);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(86, 32);
             this.button3.TabIndex = 17;
@@ -195,11 +196,24 @@ namespace mockup1_848
             this.fecha.Size = new System.Drawing.Size(200, 20);
             this.fecha.TabIndex = 21;
             // 
+            // estado
+            // 
+            this.estado.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.estado.FormattingEnabled = true;
+            this.estado.Items.AddRange(new object[] {
+            "PENDIENTE"});
+            this.estado.Location = new System.Drawing.Point(237, 402);
+            this.estado.Name = "estado";
+            this.estado.Size = new System.Drawing.Size(297, 26);
+            this.estado.TabIndex = 22;
+            this.estado.Text = "Estado";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(750, 468);
+            this.ClientSize = new System.Drawing.Size(750, 652);
+            this.Controls.Add(this.estado);
             this.Controls.Add(this.fecha);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.descripcion);
@@ -239,6 +253,7 @@ namespace mockup1_848
         private System.Windows.Forms.RichTextBox descripcion;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.DateTimePicker fecha;
+        private System.Windows.Forms.ComboBox estado;
     }
 }
 

@@ -35,6 +35,7 @@ namespace mockup1_848
             datos.Columns[5].Width = 150;
             datos.Columns[6].HeaderText = "COSTO";
             datos.Columns[6].Width = 150;
+            datos.Columns[7].HeaderText = "ESTADO";
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -70,10 +71,6 @@ namespace mockup1_848
             this.Close();
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-        }
-
         private void finalizado_Click(object sender, EventArgs e)
         {
             obtenerValores ag = CGlobal.listaValores[datos.CurrentRow.Index];
@@ -97,10 +94,13 @@ namespace mockup1_848
             datos.Columns[5].Width = 150;
             datos.Columns[6].HeaderText = "COSTO";
             datos.Columns[6].Width = 150;
+            datos.Columns[7].HeaderText = "ESTADO";
         }
 
         private void pendiente_Click(object sender, EventArgs e)
         {
+            obtenerValores modificar1 = CGlobal.listaValores[datos.CurrentRow.Index];
+            datos.BeginEdit(true);
         }
     }
 }
